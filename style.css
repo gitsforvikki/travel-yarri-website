@@ -1,0 +1,27 @@
+/*
+Add your costume background
+ */
+.html{
+    scroll-behavior: smooth;
+}
+.bg-teal , .btn-teal{
+    background-color: teal !important;
+}
+.text-teal{
+    color: teal;
+}
+
+.carousel-caption{
+    bottom : 400px;
+}
+@media (max-width: 576px) {
+    .carousel-caption{
+        bottom: 20px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+}
